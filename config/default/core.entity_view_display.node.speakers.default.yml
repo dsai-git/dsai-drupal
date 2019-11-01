@@ -1,0 +1,28 @@
+uuid: 3dc066ab-5928-45d9-8acb-e456e08d2c32
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.speakers.body
+    - node.type.speakers
+  module:
+    - text
+    - user
+id: node.speakers.default
+targetEntityType: node
+bundle: speakers
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

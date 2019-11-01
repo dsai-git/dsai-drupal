@@ -1,0 +1,30 @@
+uuid: 7caae812-74be-4027-8216-4b18039290ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.speakers.body
+    - node.type.speakers
+  module:
+    - text
+    - user
+id: node.speakers.teaser
+targetEntityType: node
+bundle: speakers
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,18 @@
+uuid: 2305172e-0944-4770-94f9-d51bf6f31a3d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.job_listings
+id: node.job_listings.title
+field_name: title
+entity_type: node
+bundle: job_listings
+label: 'Job Listings'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

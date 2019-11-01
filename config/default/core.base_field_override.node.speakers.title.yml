@@ -1,0 +1,18 @@
+uuid: bd101688-e628-4944-bab0-57e8068b411b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.speakers
+id: node.speakers.title
+field_name: title
+entity_type: node
+bundle: speakers
+label: Speakers
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

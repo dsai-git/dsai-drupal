@@ -1,0 +1,18 @@
+uuid: ac44bce6-5e96-4f3e-920a-14d15e81d686
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Job Listings'
+type: job_listings
+description: 'Roles posted by DSAi partners and associates.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
