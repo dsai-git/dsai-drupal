@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.event.body
+    - field.field.node.event.field_event_name_title
     - node.type.event
   module:
     - path
@@ -28,6 +29,12 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_event_name_title:
+    weight: 122
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   path:
     type: path
     weight: 30
