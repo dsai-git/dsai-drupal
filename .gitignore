@@ -2,4 +2,4 @@
 docker-compose.yml
 docroot/sites/*/settings.local.php
 docroot/sites/*/files
-vendor/**/.git
+vendor
