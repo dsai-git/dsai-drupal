@@ -7,7 +7,7 @@
  | for your application. See https://github.com/JeffreyWay/laravel-mix.
  |
  */
-const proxy = 'http://drupal.local';
+const proxy = 'http://dsai-drupal.docksal';
 const mix = require('laravel-mix');
 
 /*
@@ -29,8 +29,9 @@ mix
  */
 mix.browserSync({
   proxy: proxy,
-  files: ['assets/js/**/*.js', 'assets/css/**/*.css'],
+  files: ['assets/js/**/*.js', 'assets/css/**/*.css', '**/*.twig'],
   stream: true,
+  open: false,
 });
 
 /*

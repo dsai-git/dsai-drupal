@@ -2,4 +2,5 @@
 docker-compose.yml
 docroot/sites/*/settings.local.php
 docroot/sites/*/files
+docroot/themes/custom/dsai/assets
 vendor
