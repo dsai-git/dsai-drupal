@@ -4,8 +4,15 @@ status: true
 dependencies:
   config:
     - field.field.node.courses.body
+    - field.field.node.courses.field_course_banner
+    - field.field.node.courses.field_course_date
+    - field.field.node.courses.field_course_description
+    - field.field.node.courses.field_course_length
+    - field.field.node.courses.field_venue
+    - image.style.thumbnail
     - node.type.courses
   module:
+    - image
     - path
     - text
 id: node.courses.default
@@ -28,6 +35,44 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_course_banner:
+    weight: 125
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_course_date:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_course_description:
+    weight: 126
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_course_length:
+    weight: 122
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_venue:
+    weight: 124
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
   path:
     type: path
     weight: 30
