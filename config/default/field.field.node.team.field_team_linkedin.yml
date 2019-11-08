@@ -1,0 +1,23 @@
+uuid: b6d7605e-5966-4a44-89f0-e5f33adfa233
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_team_linkedin
+    - node.type.team
+  module:
+    - link
+id: node.team.field_team_linkedin
+field_name: field_team_linkedin
+entity_type: node
+bundle: team
+label: 'Team LInkedIn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
