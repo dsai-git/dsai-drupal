@@ -1,0 +1,19 @@
+uuid: 9aaa066f-fcb2-4e41-a9fe-7665c71b42fc
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_speaker_linkedin
+field_name: field_speaker_linkedin
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

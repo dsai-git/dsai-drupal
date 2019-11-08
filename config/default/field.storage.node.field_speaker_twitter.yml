@@ -1,0 +1,19 @@
+uuid: 34f3602e-88a3-47f1-8e8d-c96936ed213f
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - node
+id: node.field_speaker_twitter
+field_name: field_speaker_twitter
+entity_type: node
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

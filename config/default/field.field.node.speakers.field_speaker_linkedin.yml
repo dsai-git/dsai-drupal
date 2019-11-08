@@ -1,0 +1,23 @@
+uuid: e8427355-9a3b-4cb4-90e4-68a4766778cd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_speaker_linkedin
+    - node.type.speakers
+  module:
+    - link
+id: node.speakers.field_speaker_linkedin
+field_name: field_speaker_linkedin
+entity_type: node
+bundle: speakers
+label: 'Speaker LinkedIn'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

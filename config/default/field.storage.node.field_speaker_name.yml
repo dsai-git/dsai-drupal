@@ -1,0 +1,20 @@
+uuid: 99c4c91c-6569-4679-85c8-8e8812b9471d
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_speaker_name
+field_name: field_speaker_name
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
