@@ -1,0 +1,21 @@
+uuid: 36b57eeb-5b45-4191-ace5-1b24fb0673a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_event_venue
+    - node.type.event
+  module:
+    - text
+id: node.event.field_event_venue
+field_name: field_event_venue
+entity_type: node
+bundle: event
+label: 'Event Venue'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
