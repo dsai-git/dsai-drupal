@@ -1,0 +1,20 @@
+uuid: 5aee1359-893c-4474-b0f2-4b2294b90dd1
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_min_experience
+field_name: field_min_experience
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

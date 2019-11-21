@@ -1,0 +1,21 @@
+uuid: db8e3265-0394-41d7-9c92-29c523e567d2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_function
+    - node.type.job_listings
+  module:
+    - options
+id: node.job_listings.field_job_function
+field_name: field_job_function
+entity_type: node
+bundle: job_listings
+label: 'Job Function'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

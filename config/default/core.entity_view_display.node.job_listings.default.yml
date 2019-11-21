@@ -4,8 +4,24 @@ status: true
 dependencies:
   config:
     - field.field.node.job_listings.body
+    - field.field.node.job_listings.field_company_name
+    - field.field.node.job_listings.field_date_close
+    - field.field.node.job_listings.field_date_posted
+    - field.field.node.job_listings.field_entry_level
+    - field.field.node.job_listings.field_industry
+    - field.field.node.job_listings.field_job_duration
+    - field.field.node.job_listings.field_job_function
+    - field.field.node.job_listings.field_job_id
+    - field.field.node.job_listings.field_job_title
+    - field.field.node.job_listings.field_job_type
+    - field.field.node.job_listings.field_location
+    - field.field.node.job_listings.field_min_education
+    - field.field.node.job_listings.field_min_experience
+    - field.field.node.job_listings.field_required_travel
+    - field.field.node.job_listings.field_salary
     - node.type.job_listings
   module:
+    - options
     - text
     - user
 id: node.job_listings.default
@@ -19,6 +35,113 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_company_name:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_date_close:
+    weight: 116
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_date_posted:
+    weight: 105
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_entry_level:
+    weight: 109
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_industry:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_job_duration:
+    weight: 111
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_job_function:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_job_id:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_job_title:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_job_type:
+    weight: 110
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_location:
+    weight: 104
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_min_education:
+    weight: 112
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_min_experience:
+    weight: 113
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_required_travel:
+    weight: 114
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_salary:
+    weight: 115
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   links:
     weight: 100

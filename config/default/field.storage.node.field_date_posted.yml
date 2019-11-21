@@ -1,0 +1,20 @@
+uuid: d98ec6b2-461e-4c19-916d-4767c238e9aa
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_date_posted
+field_name: field_date_posted
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

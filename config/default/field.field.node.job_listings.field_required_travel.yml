@@ -1,0 +1,21 @@
+uuid: 4fc65743-e86a-45ef-aaa1-0836fcd26f58
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_required_travel
+    - node.type.job_listings
+  module:
+    - text
+id: node.job_listings.field_required_travel
+field_name: field_required_travel
+entity_type: node
+bundle: job_listings
+label: 'Required Travel'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

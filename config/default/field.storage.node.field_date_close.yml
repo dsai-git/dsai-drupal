@@ -1,0 +1,20 @@
+uuid: 0d5c839c-f048-47f5-9c97-2e2fa7d8c9bc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_date_close
+field_name: field_date_close
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

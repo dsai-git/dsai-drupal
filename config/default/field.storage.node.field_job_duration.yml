@@ -1,0 +1,20 @@
+uuid: 70d4585c-f335-4131-9028-0cfe5365a1f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_job_duration
+field_name: field_job_duration
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

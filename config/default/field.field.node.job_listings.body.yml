@@ -11,8 +11,8 @@ id: node.job_listings.body
 field_name: body
 entity_type: node
 bundle: job_listings
-label: Body
-description: ''
+label: Description
+description: 'Job description'
 required: false
 translatable: true
 default_value: {  }

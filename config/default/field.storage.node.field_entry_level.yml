@@ -1,0 +1,20 @@
+uuid: f91393d8-89f6-4119-bd8a-6e4b8e758d28
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_entry_level
+field_name: field_entry_level
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

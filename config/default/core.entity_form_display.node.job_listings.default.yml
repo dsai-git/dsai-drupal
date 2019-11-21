@@ -4,6 +4,21 @@ status: true
 dependencies:
   config:
     - field.field.node.job_listings.body
+    - field.field.node.job_listings.field_company_name
+    - field.field.node.job_listings.field_date_close
+    - field.field.node.job_listings.field_date_posted
+    - field.field.node.job_listings.field_entry_level
+    - field.field.node.job_listings.field_industry
+    - field.field.node.job_listings.field_job_duration
+    - field.field.node.job_listings.field_job_function
+    - field.field.node.job_listings.field_job_id
+    - field.field.node.job_listings.field_job_title
+    - field.field.node.job_listings.field_job_type
+    - field.field.node.job_listings.field_location
+    - field.field.node.job_listings.field_min_education
+    - field.field.node.job_listings.field_min_experience
+    - field.field.node.job_listings.field_required_travel
+    - field.field.node.job_listings.field_salary
     - node.type.job_listings
   module:
     - path
@@ -28,6 +43,121 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_company_name:
+    weight: 126
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_date_close:
+    weight: 136
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_date_posted:
+    weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_entry_level:
+    weight: 129
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_industry:
+    weight: 127
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_job_duration:
+    weight: 131
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_job_function:
+    weight: 128
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_job_id:
+    weight: 122
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_job_title:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_job_type:
+    weight: 130
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  field_location:
+    weight: 124
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_min_education:
+    weight: 132
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_min_experience:
+    weight: 133
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_required_travel:
+    weight: 134
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_salary:
+    weight: 135
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
   path:
     type: path
     weight: 30
