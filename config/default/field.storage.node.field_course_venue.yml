@@ -1,12 +1,12 @@
-uuid: e283adb6-b961-4214-b79c-46f822f5be1b
+uuid: 5b73ad23-e04f-4234-a32d-f2686c004306
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_course_description
-field_name: field_course_description
+id: node.field_course_venue
+field_name: field_course_venue
 entity_type: node
 type: text
 settings:

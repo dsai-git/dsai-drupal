@@ -9,10 +9,10 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: 'Course Title'
+name: Course
 type: courses
-description: 'Courses provided by DSAi'
+description: 'Click here to add a new course to the Courses page.'
 help: ''
 new_revision: true
-preview_mode: 1
+preview_mode: 2
 display_submitted: true

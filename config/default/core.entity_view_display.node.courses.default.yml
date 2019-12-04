@@ -6,13 +6,12 @@ dependencies:
     - field.field.node.courses.body
     - field.field.node.courses.field_course_banner
     - field.field.node.courses.field_course_date
-    - field.field.node.courses.field_course_description
     - field.field.node.courses.field_course_length
-    - field.field.node.courses.field_venue
+    - field.field.node.courses.field_course_price
+    - field.field.node.courses.field_course_venue
     - node.type.courses
   module:
     - image
-    - options
     - text
     - user
 id: node.courses.default
@@ -43,13 +42,6 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-  field_course_description:
-    weight: 106
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_course_length:
     weight: 102
     label: above
@@ -57,12 +49,19 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-  field_venue:
-    weight: 104
+  field_course_price:
+    weight: 107
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: text_default
+    region: content
+  field_course_venue:
+    weight: 106
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   links:
     weight: 100

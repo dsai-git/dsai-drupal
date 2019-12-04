@@ -6,9 +6,9 @@ dependencies:
     - field.field.node.courses.body
     - field.field.node.courses.field_course_banner
     - field.field.node.courses.field_course_date
-    - field.field.node.courses.field_course_description
     - field.field.node.courses.field_course_length
-    - field.field.node.courses.field_venue
+    - field.field.node.courses.field_course_price
+    - field.field.node.courses.field_course_venue
     - image.style.thumbnail
     - node.type.courses
   module:
@@ -22,7 +22,7 @@ mode: default
 content:
   body:
     type: text_textarea_with_summary
-    weight: 121
+    weight: 122
     settings:
       rows: 9
       summary_rows: 3
@@ -36,7 +36,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_course_banner:
-    weight: 125
+    weight: 110
     settings:
       progress_indicator: throbber
       preview_image_style: thumbnail
@@ -51,27 +51,29 @@ content:
     third_party_settings: {  }
     type: text_textfield
     region: content
-  field_course_description:
+  field_course_length:
+    weight: 124
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_course_price:
+    weight: 127
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+  field_course_venue:
     weight: 126
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: text_textfield
-    region: content
-  field_course_length:
-    weight: 122
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textfield
-    region: content
-  field_venue:
-    weight: 124
-    settings: {  }
-    third_party_settings: {  }
-    type: options_select
     region: content
   path:
     type: path
@@ -102,7 +104,7 @@ content:
     third_party_settings: {  }
   title:
     type: string_textfield
-    weight: -5
+    weight: 115
     region: content
     settings:
       size: 60

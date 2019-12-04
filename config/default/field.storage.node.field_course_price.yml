@@ -1,18 +1,17 @@
-uuid: c6658790-d42f-438e-9c22-8c875b7f9c14
+uuid: 4563f2aa-8850-4cf4-85c0-f907d04ba303
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - options
-id: node.field_venue
-field_name: field_venue
+    - text
+id: node.field_course_price
+field_name: field_course_price
 entity_type: node
-type: list_string
+type: text
 settings:
-  allowed_values: {  }
-  allowed_values_function: ''
-module: options
+  max_length: 255
+module: text
 locked: false
 cardinality: 1
 translatable: true

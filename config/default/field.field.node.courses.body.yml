@@ -11,7 +11,7 @@ id: node.courses.body
 field_name: body
 entity_type: node
 bundle: courses
-label: Body
+label: 'Course Description'
 description: ''
 required: false
 translatable: true
