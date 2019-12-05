@@ -1,0 +1,10 @@
+style:
+  version: VERSION
+  css:
+    theme:
+      assets/css/dsai.style.css: {}
+  js:
+    assets/js/dsai.script.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

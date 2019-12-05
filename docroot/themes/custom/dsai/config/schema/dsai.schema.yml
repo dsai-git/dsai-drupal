@@ -1,0 +1,5 @@
+# Schema for the configuration files of the DSAi theme.
+
+dsai.settings:
+  type: theme_settings
+  label: 'DSAi settings'
