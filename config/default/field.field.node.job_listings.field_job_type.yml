@@ -1,4 +1,4 @@
-uuid: db9cf95c-b12b-4572-a638-4bb7ea9890b1
+uuid: 2f40e6e8-571e-45c0-ab54-2281b2238ae8
 langcode: en
 status: true
 dependencies:
@@ -6,7 +6,7 @@ dependencies:
     - field.storage.node.field_job_type
     - node.type.job_listings
   module:
-    - options
+    - text
 id: node.job_listings.field_job_type
 field_name: field_job_type
 entity_type: node
@@ -18,4 +18,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: list_string
+field_type: text

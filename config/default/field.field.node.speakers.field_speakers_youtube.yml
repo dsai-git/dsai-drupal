@@ -11,7 +11,7 @@ id: node.speakers.field_speakers_youtube
 field_name: field_speakers_youtube
 entity_type: node
 bundle: speakers
-label: 'Speakers YouTube'
+label: 'Speaker''s YouTube'
 description: ''
 required: false
 translatable: false

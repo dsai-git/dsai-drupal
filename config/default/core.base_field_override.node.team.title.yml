@@ -8,7 +8,7 @@ id: node.team.title
 field_name: title
 entity_type: node
 bundle: team
-label: Team
+label: 'Team Member Name'
 description: ''
 required: true
 translatable: true

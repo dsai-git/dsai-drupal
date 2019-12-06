@@ -11,7 +11,7 @@ id: node.team.field_team_youtube
 field_name: field_team_youtube
 entity_type: node
 bundle: team
-label: 'Team YouTube'
+label: 'Team Member YouTube'
 description: ''
 required: false
 translatable: false

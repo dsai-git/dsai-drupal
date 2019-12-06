@@ -11,7 +11,7 @@ id: node.speakers.field_speaker_twitter
 field_name: field_speaker_twitter
 entity_type: node
 bundle: speakers
-label: 'Speaker Twitter'
+label: 'Speaker''s Twitter'
 description: ''
 required: false
 translatable: false

@@ -8,7 +8,7 @@ id: node.speakers.title
 field_name: title
 entity_type: node
 bundle: speakers
-label: Speakers
+label: 'Speaker Name'
 description: ''
 required: true
 translatable: true

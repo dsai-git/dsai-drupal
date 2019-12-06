@@ -1,19 +1,19 @@
-uuid: 266190f2-d58c-40e8-a732-bd778b3daa85
+uuid: 8ffa2555-4f00-44e5-b1d3-78d477fc8f2f
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_course_date
-field_name: field_course_date
+id: node.field_price
+field_name: field_price
 entity_type: node
 type: text
 settings:
   max_length: 255
 module: text
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

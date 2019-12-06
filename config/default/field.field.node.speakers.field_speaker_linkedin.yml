@@ -11,7 +11,7 @@ id: node.speakers.field_speaker_linkedin
 field_name: field_speaker_linkedin
 entity_type: node
 bundle: speakers
-label: 'Speaker LinkedIn'
+label: 'Speaker''s LinkedIn'
 description: ''
 required: false
 translatable: false

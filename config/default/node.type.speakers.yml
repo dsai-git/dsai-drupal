@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Speakers
+name: 'Speaker Bio'
 type: speakers
-description: 'Past and future speakers at DSAi events.'
+description: 'Click here to add a new speaker and bio for the Speakers page'
 help: ''
 new_revision: true
 preview_mode: 1

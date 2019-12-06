@@ -1,12 +1,12 @@
-uuid: 99c4c91c-6569-4679-85c8-8e8812b9471d
+uuid: daa9a269-4220-43ed-a815-1caa19fad50a
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_speaker_name
-field_name: field_speaker_name
+id: node.field_speaker_title
+field_name: field_speaker_title
 entity_type: node
 type: text
 settings:

@@ -3,8 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.team.field_team_bio
     - field.field.node.team.field_team_linkedin
+    - field.field.node.team.field_team_member_bio
     - field.field.node.team.field_team_name
     - field.field.node.team.field_team_photo
     - field.field.node.team.field_team_twitter
@@ -14,7 +14,6 @@ dependencies:
   module:
     - image
     - link
-    - options
     - text
     - user
 id: node.team.default
@@ -22,13 +21,6 @@ targetEntityType: node
 bundle: team
 mode: default
 content:
-  field_team_bio:
-    weight: 104
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_team_linkedin:
     weight: 105
     label: above
@@ -41,12 +33,20 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_team_name:
-    weight: 103
+  field_team_member_bio:
+    weight: 109
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: text_default
+    region: content
+  field_team_name:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_team_photo:
     weight: 102

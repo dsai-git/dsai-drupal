@@ -1,12 +1,12 @@
-uuid: fa641395-341c-4801-8c49-0147cf7def21
+uuid: 73d66d61-a8e5-4f99-b9a3-103f80fa6f22
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_job_title
-field_name: field_job_title
+id: node.field_job_functions
+field_name: field_job_functions
 entity_type: node
 type: text
 settings:

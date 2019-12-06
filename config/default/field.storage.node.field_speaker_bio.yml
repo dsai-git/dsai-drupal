@@ -1,4 +1,4 @@
-uuid: da47fa81-ebda-4f1b-8255-7ae715dea3e5
+uuid: 8ab80856-a81e-4897-849a-0a2f3456a938
 langcode: en
 status: true
 dependencies:
@@ -8,9 +8,8 @@ dependencies:
 id: node.field_speaker_bio
 field_name: field_speaker_bio
 entity_type: node
-type: text
-settings:
-  max_length: 255
+type: text_long
+settings: {  }
 module: text
 locked: false
 cardinality: 1

@@ -11,7 +11,7 @@ id: node.team.field_team_website
 field_name: field_team_website
 entity_type: node
 bundle: team
-label: 'Team Website'
+label: 'Team Member Website'
 description: ''
 required: false
 translatable: false

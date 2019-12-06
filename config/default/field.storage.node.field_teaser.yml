@@ -1,16 +1,15 @@
-uuid: c6073730-7cee-404e-8632-7986ed490570
+uuid: 1396cc4c-5747-4db2-9f53-06b006973814
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_event_teaser
-field_name: field_event_teaser
+id: node.field_teaser
+field_name: field_teaser
 entity_type: node
-type: text
-settings:
-  max_length: 140
+type: text_long
+settings: {  }
 module: text
 locked: false
 cardinality: 1

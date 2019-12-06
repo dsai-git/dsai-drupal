@@ -5,8 +5,8 @@ dependencies:
   config:
     - field.field.node.speakers.field_speaker_bio
     - field.field.node.speakers.field_speaker_linkedin
-    - field.field.node.speakers.field_speaker_name
     - field.field.node.speakers.field_speaker_photograph
+    - field.field.node.speakers.field_speaker_title
     - field.field.node.speakers.field_speaker_twitter
     - field.field.node.speakers.field_speakers_website
     - field.field.node.speakers.field_speakers_youtube
@@ -22,7 +22,7 @@ bundle: speakers
 mode: default
 content:
   field_speaker_bio:
-    weight: 103
+    weight: 109
     label: above
     settings: {  }
     third_party_settings: {  }
@@ -40,13 +40,6 @@ content:
     third_party_settings: {  }
     type: link
     region: content
-  field_speaker_name:
-    weight: 102
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   field_speaker_photograph:
     weight: 101
     label: above
@@ -55,6 +48,13 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_speaker_title:
+    weight: 108
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
   field_speaker_twitter:
     weight: 105

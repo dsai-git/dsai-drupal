@@ -1,14 +1,14 @@
-uuid: 2305172e-0944-4770-94f9-d51bf6f31a3d
+uuid: c02566a8-54ff-41f9-ab2e-409013610106
 langcode: en
 status: true
 dependencies:
   config:
-    - node.type.job_listings
-id: node.job_listings.title
+    - node.type.event
+id: node.event.title
 field_name: title
 entity_type: node
-bundle: job_listings
-label: 'Job Title'
+bundle: event
+label: Event
 description: ''
 required: true
 translatable: true

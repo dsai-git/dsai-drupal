@@ -1,16 +1,15 @@
-uuid: 7b848748-42bc-4c8f-b83f-d9aedc68171e
+uuid: a8e70759-eed5-4fab-8943-44b07214771e
 langcode: en
 status: true
 dependencies:
   module:
     - node
     - text
-id: node.field_team_bio
-field_name: field_team_bio
+id: node.field_team_member_bio
+field_name: field_team_member_bio
 entity_type: node
-type: text
-settings:
-  max_length: 255
+type: text_long
+settings: {  }
 module: text
 locked: false
 cardinality: 1

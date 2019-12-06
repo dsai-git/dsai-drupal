@@ -10,9 +10,8 @@ dependencies:
     - field.field.node.job_listings.field_entry_level
     - field.field.node.job_listings.field_industry
     - field.field.node.job_listings.field_job_duration
-    - field.field.node.job_listings.field_job_function
+    - field.field.node.job_listings.field_job_functions
     - field.field.node.job_listings.field_job_id
-    - field.field.node.job_listings.field_job_title
     - field.field.node.job_listings.field_job_type
     - field.field.node.job_listings.field_location
     - field.field.node.job_listings.field_min_education
@@ -21,7 +20,6 @@ dependencies:
     - field.field.node.job_listings.field_salary
     - node.type.job_listings
   module:
-    - options
     - text
     - user
 id: node.job_listings.default
@@ -78,12 +76,12 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
-  field_job_function:
-    weight: 108
+  field_job_functions:
+    weight: 117
     label: above
     settings: {  }
     third_party_settings: {  }
-    type: list_default
+    type: text_default
     region: content
   field_job_id:
     weight: 102
@@ -94,19 +92,12 @@ content:
     third_party_settings: {  }
     type: number_integer
     region: content
-  field_job_title:
-    weight: 103
+  field_job_type:
+    weight: 118
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
-    region: content
-  field_job_type:
-    weight: 110
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: list_default
     region: content
   field_location:
     weight: 104

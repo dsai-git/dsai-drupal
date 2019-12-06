@@ -1,14 +1,12 @@
-uuid: 61a05285-03dc-42c4-91bf-a6dfeb1c10c0
+uuid: 176585b8-4654-4835-9801-55e77cc6fe25
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_course_date
+    - field.storage.node.field_date
     - node.type.courses
-  module:
-    - text
-id: node.courses.field_course_date
-field_name: field_course_date
+id: node.courses.field_date
+field_name: field_date
 entity_type: node
 bundle: courses
 label: 'Course Date'
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

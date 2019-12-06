@@ -11,7 +11,7 @@ id: node.team.field_team_linkedin
 field_name: field_team_linkedin
 entity_type: node
 bundle: team
-label: 'Team LInkedIn'
+label: 'Team Member LinkedIn'
 description: ''
 required: false
 translatable: false

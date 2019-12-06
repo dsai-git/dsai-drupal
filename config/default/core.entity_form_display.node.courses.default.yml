@@ -5,10 +5,10 @@ dependencies:
   config:
     - field.field.node.courses.body
     - field.field.node.courses.field_course_banner
-    - field.field.node.courses.field_course_date
     - field.field.node.courses.field_course_length
     - field.field.node.courses.field_course_price
     - field.field.node.courses.field_course_venue
+    - field.field.node.courses.field_date
     - image.style.thumbnail
     - node.type.courses
   module:
@@ -43,14 +43,6 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
-  field_course_date:
-    weight: 123
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textfield
-    region: content
   field_course_length:
     weight: 124
     settings:
@@ -60,13 +52,13 @@ content:
     type: text_textfield
     region: content
   field_course_price:
-    weight: 127
+    type: text_textfield
+    weight: 130
+    region: content
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
-    region: content
   field_course_venue:
     weight: 126
     settings:
@@ -74,6 +66,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textfield
+    region: content
+  field_date:
+    weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   path:
     type: path

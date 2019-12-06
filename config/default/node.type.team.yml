@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Team
+name: 'Team Member'
 type: team
-description: 'The DSAi Team'
+description: 'Click here to add a new team member to the DSAi Team page'
 help: ''
 new_revision: true
 preview_mode: 1
