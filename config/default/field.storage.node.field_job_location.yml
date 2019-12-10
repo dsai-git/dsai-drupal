@@ -1,17 +1,18 @@
-uuid: 73d66d61-a8e5-4f99-b9a3-103f80fa6f22
+uuid: 486735b6-ea03-49a7-9eb5-d26b520ac600
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
-id: node.field_job_functions
-field_name: field_job_functions
+id: node.field_job_location
+field_name: field_job_location
 entity_type: node
-type: text
+type: string
 settings:
   max_length: 255
-module: text
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

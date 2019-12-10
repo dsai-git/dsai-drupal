@@ -1,12 +1,10 @@
-uuid: 2f40e6e8-571e-45c0-ab54-2281b2238ae8
+uuid: d723a9c8-29dd-4414-ae5a-a707eb9ae240
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_job_type
     - node.type.job_listings
-  module:
-    - text
 id: node.job_listings.field_job_type
 field_name: field_job_type
 entity_type: node
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

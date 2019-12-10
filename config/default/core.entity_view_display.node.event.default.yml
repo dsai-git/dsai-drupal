@@ -5,9 +5,9 @@ dependencies:
   config:
     - field.field.node.event.field_event_date
     - field.field.node.event.field_event_image
+    - field.field.node.event.field_event_price
     - field.field.node.event.field_event_url
     - field.field.node.event.field_event_venue
-    - field.field.node.event.field_price
     - field.field.node.event.field_teaser
     - node.type.event
   module:
@@ -21,11 +21,12 @@ bundle: event
 mode: default
 content:
   field_event_date:
-    weight: 101
+    weight: 108
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_event_image:
     weight: 103
@@ -35,6 +36,14 @@ content:
       image_link: ''
     third_party_settings: {  }
     type: image
+    region: content
+  field_event_price:
+    weight: 110
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_event_url:
     weight: 104
@@ -49,18 +58,12 @@ content:
     type: link
     region: content
   field_event_venue:
-    weight: 102
+    weight: 109
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
-    region: content
-  field_price:
-    weight: 106
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_teaser:
     weight: 107

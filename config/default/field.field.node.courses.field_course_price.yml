@@ -1,12 +1,10 @@
-uuid: b17f1559-632a-4ab8-8b68-3fe948999938
+uuid: 18dd10bd-7e02-48ec-ab47-f6733c5dd31a
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_course_price
     - node.type.courses
-  module:
-    - text
 id: node.courses.field_course_price
 field_name: field_course_price
 entity_type: node
@@ -15,10 +13,7 @@ label: 'Course Price'
 description: ''
 required: false
 translatable: false
-default_value:
-  -
-    value: Free
-    format: basic_html
+default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

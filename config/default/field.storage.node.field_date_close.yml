@@ -1,17 +1,18 @@
-uuid: 0d5c839c-f048-47f5-9c97-2e2fa7d8c9bc
+uuid: 58a52b7a-4ed6-4de6-8d06-57cf2386f69f
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
 id: node.field_date_close
 field_name: field_date_close
 entity_type: node
-type: text
+type: string
 settings:
   max_length: 255
-module: text
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

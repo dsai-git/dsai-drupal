@@ -5,9 +5,9 @@ dependencies:
   config:
     - field.field.node.event.field_event_date
     - field.field.node.event.field_event_image
+    - field.field.node.event.field_event_price
     - field.field.node.event.field_event_url
     - field.field.node.event.field_event_venue
-    - field.field.node.event.field_price
     - field.field.node.event.field_teaser
     - image.style.thumbnail
     - node.type.event
@@ -28,12 +28,12 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_event_date:
-    weight: 121
+    weight: 131
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: string_textfield
     region: content
   field_event_image:
     weight: 110
@@ -42,6 +42,14 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_event_price:
+    weight: 133
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   field_event_url:
     weight: 124
@@ -52,21 +60,13 @@ content:
     type: link_default
     region: content
   field_event_venue:
-    weight: 122
+    weight: 132
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: string_textfield
     region: content
-  field_price:
-    type: text_textfield
-    weight: 130
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
   field_teaser:
     weight: 117
     settings:

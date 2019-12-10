@@ -1,17 +1,18 @@
-uuid: 5aee1359-893c-4474-b0f2-4b2294b90dd1
+uuid: 27ffc78a-b42b-49ea-8d92-3f399f0d0d76
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
 id: node.field_min_experience
 field_name: field_min_experience
 entity_type: node
-type: text
+type: string
 settings:
   max_length: 255
-module: text
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

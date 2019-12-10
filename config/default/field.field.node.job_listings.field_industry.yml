@@ -1,12 +1,10 @@
-uuid: 74f6c57f-e93a-492c-b8f6-269ee741368f
+uuid: e00f6984-8aa3-4bb9-b472-9ff559bb7adf
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_industry
     - node.type.job_listings
-  module:
-    - text
 id: node.job_listings.field_industry
 field_name: field_industry
 entity_type: node
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

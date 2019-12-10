@@ -44,21 +44,21 @@ content:
     type: image_image
     region: content
   field_course_length:
-    weight: 124
+    weight: 131
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textfield
+    type: string_textfield
     region: content
   field_course_price:
-    type: text_textfield
-    weight: 130
-    region: content
+    weight: 132
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+    type: string_textfield
+    region: content
   field_course_venue:
     weight: 126
     settings:

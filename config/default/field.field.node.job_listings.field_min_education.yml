@@ -1,12 +1,10 @@
-uuid: f2635988-9252-4c08-af0a-f45f776922d5
+uuid: 6d25c254-a5c9-403f-83f9-d91a7b620f50
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_min_education
     - node.type.job_listings
-  module:
-    - text
 id: node.job_listings.field_min_education
 field_name: field_min_education
 entity_type: node
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

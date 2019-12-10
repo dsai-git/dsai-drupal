@@ -36,18 +36,20 @@ content:
     type: image
     region: content
   field_course_length:
-    weight: 102
+    weight: 109
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_course_price:
-    weight: 107
+    weight: 110
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_course_venue:
     weight: 106

@@ -1,4 +1,4 @@
-uuid: e8e86f81-d253-4e63-a8f1-c26f8fef3959
+uuid: 669073d4-a094-4d11-ba4a-12680a24314d
 langcode: en
 status: true
 dependencies:
@@ -7,10 +7,11 @@ dependencies:
 id: node.field_job_id
 field_name: field_job_id
 entity_type: node
-type: integer
+type: string
 settings:
-  unsigned: false
-  size: normal
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
 module: core
 locked: false
 cardinality: 1

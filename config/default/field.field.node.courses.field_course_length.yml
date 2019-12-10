@@ -1,12 +1,10 @@
-uuid: 4790b524-206c-4aa1-86ad-a3282c57a212
+uuid: aa5a8b18-029b-419f-9439-bf5dbd5a25a6
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_course_length
     - node.type.courses
-  module:
-    - text
 id: node.courses.field_course_length
 field_name: field_course_length
 entity_type: node
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

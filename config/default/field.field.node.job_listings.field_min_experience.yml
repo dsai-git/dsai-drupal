@@ -1,12 +1,10 @@
-uuid: dc48abe8-0162-4ab9-93f9-8a750771fef3
+uuid: 5b831b0e-bb1c-47dd-a8a4-63454a0e1391
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_min_experience
     - node.type.job_listings
-  module:
-    - text
 id: node.job_listings.field_min_experience
 field_name: field_min_experience
 entity_type: node
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

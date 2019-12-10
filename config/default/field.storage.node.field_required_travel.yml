@@ -1,17 +1,18 @@
-uuid: ea4cc093-861b-42c7-af0c-adfd393c39ac
+uuid: 5b8d3f2a-74cb-4abf-bd77-8e48b25a7840
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
 id: node.field_required_travel
 field_name: field_required_travel
 entity_type: node
-type: text
+type: string
 settings:
   max_length: 255
-module: text
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

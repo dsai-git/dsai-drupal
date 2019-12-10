@@ -1,12 +1,10 @@
-uuid: af9f3d63-0e56-4178-9a7a-f6e83caa5fbf
+uuid: 843f271f-aacb-4d08-a59d-f183b0c991da
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_date_close
     - node.type.job_listings
-  module:
-    - text
 id: node.job_listings.field_date_close
 field_name: field_date_close
 entity_type: node
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

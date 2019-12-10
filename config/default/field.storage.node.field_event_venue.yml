@@ -1,17 +1,18 @@
-uuid: 76affe34-e444-442f-92c7-e1ea6c20a3b1
+uuid: fbcc4cda-498d-445e-91fe-3173ef225524
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - text
 id: node.field_event_venue
 field_name: field_event_venue
 entity_type: node
-type: text
+type: string
 settings:
   max_length: 255
-module: text
+  is_ascii: false
+  case_sensitive: false
+module: core
 locked: false
 cardinality: 1
 translatable: true

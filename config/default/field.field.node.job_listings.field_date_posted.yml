@@ -1,12 +1,10 @@
-uuid: 1e3fac3a-0684-431f-88b7-1ed0b06bab22
+uuid: 039a9c58-d144-456b-bf5f-aef1067df31c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_date_posted
     - node.type.job_listings
-  module:
-    - text
 id: node.job_listings.field_date_posted
 field_name: field_date_posted
 entity_type: node
@@ -18,4 +16,4 @@ translatable: false
 default_value: {  }
 default_value_callback: ''
 settings: {  }
-field_type: text
+field_type: string

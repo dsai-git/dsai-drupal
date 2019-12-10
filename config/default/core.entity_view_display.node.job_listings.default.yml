@@ -10,16 +10,18 @@ dependencies:
     - field.field.node.job_listings.field_entry_level
     - field.field.node.job_listings.field_industry
     - field.field.node.job_listings.field_job_duration
-    - field.field.node.job_listings.field_job_functions
+    - field.field.node.job_listings.field_job_function
     - field.field.node.job_listings.field_job_id
+    - field.field.node.job_listings.field_job_listing_image
+    - field.field.node.job_listings.field_job_location
     - field.field.node.job_listings.field_job_type
-    - field.field.node.job_listings.field_location
     - field.field.node.job_listings.field_min_education
     - field.field.node.job_listings.field_min_experience
     - field.field.node.job_listings.field_required_travel
     - field.field.node.job_listings.field_salary
     - node.type.job_listings
   module:
+    - image
     - text
     - user
 id: node.job_listings.default
@@ -35,104 +37,125 @@ content:
     third_party_settings: {  }
     region: content
   field_company_name:
-    weight: 106
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_date_close:
-    weight: 116
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_date_posted:
-    weight: 105
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_entry_level:
-    weight: 109
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_industry:
-    weight: 107
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_job_duration:
-    weight: 111
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_job_functions:
-    weight: 117
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_job_id:
-    weight: 102
+    weight: 119
     label: above
     settings:
-      thousand_separator: ''
-      prefix_suffix: true
+      link_to_entity: false
     third_party_settings: {  }
-    type: number_integer
+    type: string
+    region: content
+  field_date_close:
+    weight: 120
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_date_posted:
+    weight: 121
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_entry_level:
+    weight: 122
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_industry:
+    weight: 123
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_job_duration:
+    weight: 124
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_job_function:
+    weight: 125
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_job_id:
+    weight: 126
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_job_listing_image:
+    weight: 133
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_job_location:
+    weight: 128
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
     region: content
   field_job_type:
-    weight: 118
+    weight: 127
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
-    region: content
-  field_location:
-    weight: 104
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_min_education:
-    weight: 112
+    weight: 129
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_min_experience:
-    weight: 113
+    weight: 130
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_required_travel:
-    weight: 114
+    weight: 131
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   field_salary:
-    weight: 115
+    weight: 132
     label: above
-    settings: {  }
+    settings:
+      link_to_entity: false
     third_party_settings: {  }
-    type: text_default
+    type: string
     region: content
   links:
     weight: 100
