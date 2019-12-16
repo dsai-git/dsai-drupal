@@ -1,0 +1,19 @@
+uuid: 6c545a4d-22fe-422f-819a-ca5428286c48
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_course_time
+    - node.type.courses
+id: node.courses.field_course_time
+field_name: field_course_time
+entity_type: node
+bundle: courses
+label: 'Course TIme'
+description: 'Optional field for Time of course'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

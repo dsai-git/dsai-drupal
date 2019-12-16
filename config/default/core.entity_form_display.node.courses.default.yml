@@ -7,6 +7,7 @@ dependencies:
     - field.field.node.courses.field_course_banner
     - field.field.node.courses.field_course_length
     - field.field.node.courses.field_course_price
+    - field.field.node.courses.field_course_time
     - field.field.node.courses.field_course_venue
     - field.field.node.courses.field_date
     - image.style.thumbnail
@@ -59,8 +60,16 @@ content:
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_course_venue:
+  field_course_time:
     weight: 126
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_course_venue:
+    weight: 128
     settings:
       size: 60
       placeholder: ''
