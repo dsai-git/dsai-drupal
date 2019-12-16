@@ -1,52 +1,42 @@
-uuid: fda1b645-01fc-4ea5-b396-ab2e0fbdadc3
+uuid: 3c804948-3911-4699-a769-40e2ceda2569
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.event.field_event_date
-    - field.field.node.event.field_event_follow_l
-    - field.field.node.event.field_event_image
-    - field.field.node.event.field_event_map_reference
-    - field.field.node.event.field_event_price
-    - field.field.node.event.field_event_time
-    - field.field.node.event.field_event_url
-    - field.field.node.event.field_event_venue
-    - field.field.node.event.field_teaser
+    - field.field.node.courses.body
+    - field.field.node.courses.field_course_banner
+    - field.field.node.courses.field_course_length
+    - field.field.node.courses.field_course_price
+    - field.field.node.courses.field_course_time
+    - field.field.node.courses.field_course_venue
+    - field.field.node.courses.field_date
     - image.style.thumbnail
-    - node.type.event
+    - node.type.courses
   module:
     - image
-    - link
     - path
     - text
-id: node.event.default
+id: node.courses.default
 targetEntityType: node
-bundle: event
+bundle: courses
 mode: default
 content:
+  body:
+    type: text_textarea_with_summary
+    weight: 122
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_event_date:
-    weight: 131
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_event_follow_l:
-    weight: 116
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-    region: content
-  field_event_image:
+  field_course_banner:
     weight: 110
     settings:
       progress_indicator: throbber
@@ -54,53 +44,45 @@ content:
     third_party_settings: {  }
     type: image_image
     region: content
-  field_event_map_reference:
-    weight: 152
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-    region: content
-  field_event_price:
-    weight: 160
+  field_course_length:
+    weight: 131
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_event_time:
-    weight: 135
+  field_course_price:
+    weight: 132
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_event_url:
-    weight: 124
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-    region: content
-  field_event_venue:
-    weight: 150
+  field_course_time:
+    weight: 126
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
     type: string_textfield
     region: content
-  field_teaser:
-    weight: 117
+  field_course_venue:
+    weight: 128
     settings:
-      rows: 5
+      size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: text_textarea
+    type: text_textfield
+    region: content
+  field_date:
+    weight: 125
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
     region: content
   path:
     type: path

@@ -1,0 +1,19 @@
+uuid: 5b831b0e-bb1c-47dd-a8a4-63454a0e1391
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_min_experience
+    - node.type.job_listings
+id: node.job_listings.field_min_experience
+field_name: field_min_experience
+entity_type: node
+bundle: job_listings
+label: 'Min Experience'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

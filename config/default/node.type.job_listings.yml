@@ -1,4 +1,4 @@
-uuid: 581833c0-1a80-4668-b08c-0e32998b8783
+uuid: ac44bce6-5e96-4f3e-920a-14d15e81d686
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Event
-type: event
-description: 'Click here to add a new event to the Events page'
+name: 'Job Listing'
+type: job_listings
+description: 'Click here to add a new job to the Job Listings page'
 help: ''
 new_revision: true
 preview_mode: 1

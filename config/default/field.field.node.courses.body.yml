@@ -1,17 +1,17 @@
-uuid: b3ec015e-a5ca-4c2f-95b8-95671668bd6f
+uuid: 47d7e4de-c855-460e-ae1e-2b474eaa468c
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.event
+    - node.type.courses
   module:
     - text
-id: node.event.body
+id: node.courses.body
 field_name: body
 entity_type: node
-bundle: event
-label: Body
+bundle: courses
+label: 'Course Description'
 description: ''
 required: false
 translatable: true

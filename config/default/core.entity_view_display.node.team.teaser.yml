@@ -1,15 +1,16 @@
-uuid: da64f653-fc83-4e3d-b1aa-fb7040a47380
+uuid: 146749dc-12f3-4f3f-a762-ed12c8ab8935
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.event
+    - field.field.node.team.field_team_photo
+    - node.type.team
   module:
     - user
-id: node.event.teaser
+id: node.team.teaser
 targetEntityType: node
-bundle: event
+bundle: team
 mode: teaser
 content:
   links:
@@ -17,4 +18,5 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-hidden: {  }
+hidden:
+  field_team_photo: true

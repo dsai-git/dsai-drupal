@@ -1,0 +1,19 @@
+uuid: 1c47ba7e-98e8-4fac-bb8f-5b040d8368b9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_job_id
+    - node.type.job_listings
+id: node.job_listings.field_job_id
+field_name: field_job_id
+entity_type: node
+bundle: job_listings
+label: 'Job ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

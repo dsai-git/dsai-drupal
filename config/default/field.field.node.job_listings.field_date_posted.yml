@@ -1,0 +1,19 @@
+uuid: 039a9c58-d144-456b-bf5f-aef1067df31c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_posted
+    - node.type.job_listings
+id: node.job_listings.field_date_posted
+field_name: field_date_posted
+entity_type: node
+bundle: job_listings
+label: 'Date Posted'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

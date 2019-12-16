@@ -1,0 +1,23 @@
+uuid: f53a7a87-bb66-488b-a486-f09a1d46caa8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_speakers_youtube
+    - node.type.speakers
+  module:
+    - link
+id: node.speakers.field_speakers_youtube
+field_name: field_speakers_youtube
+entity_type: node
+bundle: speakers
+label: 'Speaker''s YouTube'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

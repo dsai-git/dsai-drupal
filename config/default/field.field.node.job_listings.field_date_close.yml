@@ -1,0 +1,19 @@
+uuid: 843f271f-aacb-4d08-a59d-f183b0c991da
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_close
+    - node.type.job_listings
+id: node.job_listings.field_date_close
+field_name: field_date_close
+entity_type: node
+bundle: job_listings
+label: 'Date Close'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

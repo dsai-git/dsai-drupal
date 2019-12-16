@@ -1,0 +1,18 @@
+uuid: 1d3e0b55-523f-4cff-946c-868956af29d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.team
+id: node.team.title
+field_name: title
+entity_type: node
+bundle: team
+label: 'Team Member Name'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

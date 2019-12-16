@@ -1,22 +1,20 @@
-uuid: 02a8a55b-0c1a-426b-aadb-f1e50cce4fe0
+uuid: 081b3b22-0d36-4a08-a5ae-bddb8aec8958
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
-    - node.type.article
+    - field.storage.node.field_team_photo
+    - node.type.team
   module:
     - image
-_core:
-  default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
-id: node.article.field_image
-field_name: field_image
+id: node.team.field_team_photo
+field_name: field_team_photo
 entity_type: node
-bundle: article
-label: Image
+bundle: team
+label: 'Team Member Photo'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

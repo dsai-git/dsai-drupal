@@ -1,4 +1,4 @@
-uuid: 581833c0-1a80-4668-b08c-0e32998b8783
+uuid: df387378-5781-4434-ad61-afe7e8788c2c
 langcode: en
 status: true
 dependencies:
@@ -9,9 +9,9 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:'
-name: Event
-type: event
-description: 'Click here to add a new event to the Events page'
+name: 'Speaker Bio'
+type: speakers
+description: 'Click here to add a new speaker and bio for the Speakers page'
 help: ''
 new_revision: true
 preview_mode: 1

@@ -1,0 +1,19 @@
+uuid: 6d25c254-a5c9-403f-83f9-d91a7b620f50
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_min_education
+    - node.type.job_listings
+id: node.job_listings.field_min_education
+field_name: field_min_education
+entity_type: node
+bundle: job_listings
+label: 'Min Education'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

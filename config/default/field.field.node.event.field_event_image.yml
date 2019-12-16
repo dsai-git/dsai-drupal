@@ -1,22 +1,20 @@
-uuid: 02a8a55b-0c1a-426b-aadb-f1e50cce4fe0
+uuid: 93dc050d-acf0-4f6c-ba1f-a392a9afd54a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_image
-    - node.type.article
+    - field.storage.node.field_event_image
+    - node.type.event
   module:
     - image
-_core:
-  default_config_hash: tgJzhA7Swh4M_gWU5FwFe5lPxPj5rebpMbvhpdNrERs
-id: node.article.field_image
-field_name: field_image
+id: node.event.field_event_image
+field_name: field_event_image
 entity_type: node
-bundle: article
-label: Image
+bundle: event
+label: 'Event Image'
 description: ''
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:

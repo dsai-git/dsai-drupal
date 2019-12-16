@@ -1,15 +1,15 @@
-uuid: da64f653-fc83-4e3d-b1aa-fb7040a47380
+uuid: 7caae812-74be-4027-8216-4b18039290ff
 langcode: en
 status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - node.type.event
+    - node.type.speakers
   module:
     - user
-id: node.event.teaser
+id: node.speakers.teaser
 targetEntityType: node
-bundle: event
+bundle: speakers
 mode: teaser
 content:
   links:

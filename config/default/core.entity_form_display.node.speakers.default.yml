@@ -1,27 +1,25 @@
-uuid: fda1b645-01fc-4ea5-b396-ab2e0fbdadc3
+uuid: 8307c8a1-613d-4503-a96c-bb50e2b9ffe4
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.event.field_event_date
-    - field.field.node.event.field_event_follow_l
-    - field.field.node.event.field_event_image
-    - field.field.node.event.field_event_map_reference
-    - field.field.node.event.field_event_price
-    - field.field.node.event.field_event_time
-    - field.field.node.event.field_event_url
-    - field.field.node.event.field_event_venue
-    - field.field.node.event.field_teaser
+    - field.field.node.speakers.field_speaker_bio
+    - field.field.node.speakers.field_speaker_linkedin
+    - field.field.node.speakers.field_speaker_photograph
+    - field.field.node.speakers.field_speaker_title
+    - field.field.node.speakers.field_speaker_twitter
+    - field.field.node.speakers.field_speakers_website
+    - field.field.node.speakers.field_speakers_youtube
     - image.style.thumbnail
-    - node.type.event
+    - node.type.speakers
   module:
     - image
     - link
     - path
     - text
-id: node.event.default
+id: node.speakers.default
 targetEntityType: node
-bundle: event
+bundle: speakers
 mode: default
 content:
   created:
@@ -30,55 +28,15 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_event_date:
-    weight: 131
+  field_speaker_bio:
+    weight: 122
     settings:
-      size: 60
+      rows: 5
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: text_textarea
     region: content
-  field_event_follow_l:
-    weight: 116
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-    region: content
-  field_event_image:
-    weight: 110
-    settings:
-      progress_indicator: throbber
-      preview_image_style: thumbnail
-    third_party_settings: {  }
-    type: image_image
-    region: content
-  field_event_map_reference:
-    weight: 152
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
-    type: link_default
-    region: content
-  field_event_price:
-    weight: 160
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_event_time:
-    weight: 135
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-    type: string_textfield
-    region: content
-  field_event_url:
+  field_speaker_linkedin:
     weight: 124
     settings:
       placeholder_url: ''
@@ -86,21 +44,45 @@ content:
     third_party_settings: {  }
     type: link_default
     region: content
-  field_event_venue:
-    weight: 150
+  field_speaker_photograph:
+    weight: 110
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_speaker_title:
+    weight: 118
     settings:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: text_textfield
     region: content
-  field_teaser:
-    weight: 117
+  field_speaker_twitter:
+    weight: 125
     settings:
-      rows: 5
-      placeholder: ''
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
-    type: text_textarea
+    type: link_default
+    region: content
+  field_speakers_website:
+    weight: 126
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
+    region: content
+  field_speakers_youtube:
+    weight: 127
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+    type: link_default
     region: content
   path:
     type: path
