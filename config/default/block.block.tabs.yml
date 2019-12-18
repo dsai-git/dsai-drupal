@@ -1,15 +1,13 @@
-uuid: 74643185-f89a-4f97-aab3-35e059a471cd
+uuid: 31b2c5f7-2345-4792-ae52-32c483ee6934
 langcode: en
 status: true
 dependencies:
   theme:
     - dsai
-_core:
-  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
-id: dsai_local_tasks
+id: tabs
 theme: dsai
 region: content
-weight: -40
+weight: -1
 provider: null
 plugin: local_tasks_block
 settings:

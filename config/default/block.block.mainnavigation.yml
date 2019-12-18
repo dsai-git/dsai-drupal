@@ -1,4 +1,4 @@
-uuid: 3a323d88-483c-4c17-9096-09df5762cc6d
+uuid: a914b5cc-bbd4-489a-bdef-d1792a124db3
 langcode: en
 status: true
 dependencies:
@@ -8,11 +8,9 @@ dependencies:
     - system
   theme:
     - dsai
-_core:
-  default_config_hash: ChCx7DYNUrPTt5uiRdQAPDKJQMc-_SyAQTrZh8H0o-c
-id: dsai_main_menu
+id: mainnavigation
 theme: dsai
-region: navbar_branding
+region: navbar_left
 weight: 0
 provider: null
 plugin: 'system_menu_block:main'
@@ -22,6 +20,6 @@ settings:
   provider: system
   label_display: '0'
   level: 1
-  depth: 1
+  depth: 0
   expand_all_items: false
 visibility: {  }

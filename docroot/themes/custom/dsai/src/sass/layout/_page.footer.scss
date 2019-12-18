@@ -3,3 +3,41 @@
 .page__footer {
 
 }
+
+.footer {
+  padding: 3rem 0;
+  background: #f4f5f7;
+}
+
+.footer.has-cards {
+  position: relative;
+  overflow: hidden;
+  margin-top: -420px;
+  padding-top: 500px;
+  pointer-events: none;
+  background: transparent;
+}
+
+.footer.has-cards .container {
+  position: relative;
+  pointer-events: auto;
+}
+
+.footer.has-cards:before {
+  position: absolute;
+  top: 600px;
+  right: 0;
+  left: 0;
+  height: 2000px;
+  content: '';
+  transform: skew(0, -8deg);
+  background: #f4f5f7;
+}
+
+.footer .copyright {
+  font-size: .875rem;
+}
+
+.offoff {
+  color: #999999;
+}
