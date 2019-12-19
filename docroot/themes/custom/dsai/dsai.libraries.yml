@@ -7,6 +7,8 @@ style:
       https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css: {}
   js:
     assets/js/dsai.script.js: {}
+    assets/js/animation-plugin.js: {}
+    assets/js/animation.js: {}
   dependencies:
     - core/jquery
     - core/drupal
